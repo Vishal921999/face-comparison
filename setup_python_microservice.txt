@@ -21,14 +21,12 @@ The 4th step ensures virtual environment for running python is ready.
 
 6. Open thunder client/ postman to see the interaction between nestjs and flask microservice. 
 
-7. Create a post request and type URL as 'http://localhost:5000/compare-faces'
+7. Create a post request and type URL as 'http://localhost:3000/face/compare'
 
 	type in the body section in the format below:
 
 
 		{
   				"image1_path": "path to first image in your PC",
-  				"image2_path": "path to second image in your PC",
-  				"face_locations_one": output from google vision api as it is,
-  				"face_locations_two": output from google vision api as it is
+  				"image2_path": "path to second image in your PC"
 		}
